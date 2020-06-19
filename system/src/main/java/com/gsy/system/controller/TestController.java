@@ -1,7 +1,7 @@
 package com.gsy.system.controller;
 
-import com.gsy.system.domain.Test;
-import com.gsy.system.service.TestService;
+import com.gsy.server.domain.Test;
+import com.gsy.server.service.TestService;
 import java.util.List;
 import javax.annotation.Resource;
 import org.springframework.web.bind.annotation.RequestMapping;
