@@ -19,7 +19,13 @@ export default new Router({
     },
     {
       path: '/admin',
-      component: admin
+      component: admin,
+      children: [
+        {
+          path: 'welcome',
+          component: () => import('@/views/admin/welcome')
+        }
+      ]
     }
   ]
 })

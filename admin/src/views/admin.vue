@@ -934,7 +934,7 @@
             <div class="row">
               <div class="col-xs-12">
                 <!-- PAGE CONTENT BEGINS -->
-
+                <router-view></router-view>
                 <!-- PAGE CONTENT ENDS -->
               </div><!-- /.col -->
             </div><!-- /.row -->
@@ -977,7 +977,7 @@
 
 <script>
   export default {
-    name: "admin",
+    name: "Admin",
     mounted() {
       $('body').removeClass('login-layout light-login');
       $('body').attr('class', 'no-skin');
